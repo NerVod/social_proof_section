@@ -1,0 +1,146 @@
+/* *****************crédits site challenge************************** */
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* ********************************général page************************************* */
+
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap");
+
+body {
+  font-family: "Spartan", sans-serif;
+  color: hsl(300, 43%, 22%);
+  font-weight: 400;
+  font-size: 15px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* *******************************background********************************* */
+.fullPage {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(images/bg-pattern-bottom-desktop.svg);
+  background-size: cover;
+}
+
+.bgTop {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(images/bg-pattern-top-desktop.svg);
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+/* ************************************partie haute page************************************** */
+
+.hautPage {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* **********BLOC SLOGAN********* */
+
+.slogan {
+  height: 300px;
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10vh;
+  
+}
+
+.titreSlogan {
+  color: hsl(300, 43%, 22%);
+  font-size: 55px;
+  margin-top: 0px;
+}
+.nombre {
+    font-size: 1.15em;
+}
+
+.blocSlogan {
+  color: hsl(303, 10%, 53%);
+  line-height: 25px;
+  margin-top: -55px;
+}
+
+/* *********** BLOC NOTATIONS **********/
+
+.notation {
+
+  height: 250px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 10vh;
+ 
+}
+
+.etoile {
+  margin: auto 35px;
+}
+
+.star {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  width: 450px;
+  color: hsl(300, 43%, 22%);
+  background-color: hsl(300, 24%, 96%);
+  border-radius: 5px;
+  margin: 0px auto;
+  font-weight: 700;
+}
+
+.star1 {
+  margin-left: 30px;
+}
+
+.star2 {
+    margin-left: 90px;
+  }
+
+.star3 {
+   margin-left: 150px;
+}
+
+
+/* ***************************MID PAGE BAS **********************************/
+
+.avis {
+    display: flex;
+}
+
+.card {
+    height: 300px;
+    width: 400px;
+    background-color: hsl(300, 43%, 22%);
+    color:hsl(300, 24%, 96%);
+    margin: 10px;
+    border-radius: 10px 10px;
+
+}
+
+.votant {
+    display: flex;
+    height: 130px;
+}
+
+.photoProfile {
+    border-radius: 50% 50%;
+    height: 60px
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
