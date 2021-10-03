@@ -25,15 +25,16 @@ html {
 
 /* *******************************background********************************* */
 .fullPage {
-  height: 100vh;
-  width: 100vw;
+  height: 900px;
+  width: 1400px;
   background-image: url(images/bg-pattern-bottom-desktop.svg);
   background-size: cover;
+  margin: 0 auto;
 }
 
 .bgTop {
-  height: 100vh;
-  width: 100vw;
+  height: 900px;
+  width: 1400px;
   background-image: url(images/bg-pattern-top-desktop.svg);
   background-repeat: no-repeat;
   z-index: 1;
@@ -118,6 +119,9 @@ html {
 
 .avis {
     display: flex;
+    justify-content: space-around;
+    width: 1300px;
+    margin: 15px auto;
 }
 
 .card {
@@ -130,17 +134,50 @@ html {
 
 }
 
+.card1 {
+  margin-left: 40px;
+}
+
+.card2 {
+  margin-top: 30px;
+}
+
+.card3 {
+  margin-top: 60px;
+  margin-right: 40px;
+}
+
 .votant {
     display: flex;
     height: 130px;
+    margin-top: 25px;
+    margin-left: 25px;
 }
 
 .photoProfile {
     border-radius: 50% 50%;
-    height: 60px
+    height: 50px;
+    margin: 10px 20px 5px 20px;
 }
 
 .info {
     display: flex;
     flex-direction: column;
+    line-height: 5px;
+}
+
+.name {
+  line-height: 10px;
+}
+.status {
+  line-height: 10px;
+  margin-top: 0px;
+  color:hsl(333, 80%, 67%);
+}
+
+.comment {
+  width: 80%;
+  margin: auto;
+  line-height: 24px;
+  font-size: 17px;
 }
