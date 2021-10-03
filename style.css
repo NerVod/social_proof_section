@@ -1,12 +1,4 @@
-/* *****************crédits site challenge************************** */
 
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}
 
 /* ********************************général page************************************* */
 
@@ -29,7 +21,7 @@ html {
   width: 1400px;
   background-image: url(images/bg-pattern-bottom-desktop.svg);
   background-size: cover;
-  margin: 0 auto;
+  margin: 70px auto;
 }
 
 .bgTop {
@@ -180,4 +172,22 @@ html {
   margin: auto;
   line-height: 24px;
   font-size: 17px;
+}
+
+/****************************footer********************************** */
+
+/* *******crédits site challenge******* */
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.logo {
+  height: 25px;
+  margin-left: 8px;
+  margin-bottom: -8px;
 }

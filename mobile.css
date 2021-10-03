@@ -1,0 +1,117 @@
+@media screen and (max-width: 1325px) {
+    .fullPage .bgTop{
+     width: 100vw;
+     margin: 70px 5px;
+      }
+      .card {
+        height: 290px;
+        width: 380px;
+        font-size: 14px;
+        margin: 2px;
+        
+    }
+
+    .card1 {
+        margin-left: 2px;
+      }
+      
+      .card2 {
+        margin: 30px -12px;
+      }
+      
+      .card3 {
+        margin-top: 60px;
+        margin-right: 30px;
+      }
+
+}
+@media screen and (max-width: 1255px) {
+    .fullPage {
+     width: 100vw;
+     height: 100vh;
+     margin: -70px auto;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     }
+
+    .bgTop {
+     margin: 0 auto;
+     }
+
+
+     .hautPage {
+         width: 300px;
+         margin: auto;
+         flex-wrap: wrap;
+     }
+    .slogan {
+        width: 400px;
+        text-align: center;
+    }
+     .titreSlogan {
+         width: 320px;
+         font-size: 40px;
+         margin: auto;
+     }
+     .nombre {
+         font-size: 1.05em;
+     }
+
+     .blocSlogan {
+         width: 380px;
+        line-height: 20px;
+        margin-top: auto;
+      }
+      .notation {
+        height: 280px;
+        width: 400px;
+        margin-top: 40px;
+      }
+
+      .star {
+          width: 400px;
+          height: 60px;
+          display: flex;
+          flex-direction: column;
+          padding-bottom: 15px;
+      }
+      .star1 {
+        margin: auto;
+      }
+      .star2 {
+        margin: auto;
+      }
+      .star3 {
+        margin: auto;
+      }
+      .etoile {
+          width: 110px;
+          
+      }
+
+      .avis{
+        width: 400px;
+        margin: auto;
+        flex-wrap: wrap;
+        margin-top: 30px;
+      }
+      .card {
+        height: 270px;
+        width: 400px;
+        margin: 15px auto;
+      
+    }
+      .comment {
+          margin-top: -25px;
+      }
+
+
+.mobileColumn {
+    margin:0 auto;
+}
+
+
+
+
+} 
